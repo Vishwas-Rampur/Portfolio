@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #333;
+}
+
+header {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6f7c9; /* lighter green background */
+}
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #7fbf40; /* Darker green on hover */
+}
+
+
+.template-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  text-align: center;
+  margin-top: 50px;
+}
+.profile img {
+  width: 250px; /* Bigger size */
+  height: 250px;
+  border-radius: 50%; /* Makes it perfectly circular */
+  object-fit: cover;
+  border: 5px solid #aadd70; /* Green border */
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #999;
+}
+/* Skills Section */
+.skills-section {
+  background-color: #e6f7c9; /* Light green background */
+  padding: 50px 20px;
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+.skills-grid div {
+  height: 120px; /* or whatever looks good */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: #74c000; /* your green */
+  font-size: 1.2rem;
+}
+
+
+.skill-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7fbf40; /* Green text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+ 
+
+.skills-section {
+  background-color: #e8f8d8;
+  padding-top: 30px; /* Make "Skills" closer to green start */
+  padding-bottom: 50px;
+  text-align: center;
+}
+.about-text {
+  font-family: 'Poppins', sans-serif;  
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 50px; /* centers it and adds space below */
+}
+.projects-section {
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.projects-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  border-radius: 16px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-thumb {
+  height: 150px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.green-bg {
+  background-color: #e0f9cc; /* soft green */
+}
+
+.project-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-desc {
+  font-size: 16px;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+}
+
+.education-section {
+  background-color: #e6f7c9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.education-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.education-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.education-card {
+  background: white;
+  border-radius: 16px;
+  width: 300px;
+  padding: 25px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.education-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+.education-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.education-details {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+}
+.footer {
+  background-color: white;
+  padding: 20px 40px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.footer-right {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-icon {
+  font-size: 24px;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+  color: #4CAF50; /* Optional: changes color slightly on hover */
+}
+
+.icon-link {
+  display: inline-block;
+}
