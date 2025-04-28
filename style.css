@@ -7,7 +7,7 @@
 
 body {
   background-color: #333; /* Dark background */
-  color: #74c000; /* Dark green text */
+  color: #a8d08d; /* Lighter green for text */
 }
 
 header {
@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e6f7c9; /* Lighter green background */
+  background-color: #8bc34a; /* Slightly darker green */
 }
 
 nav ul {
@@ -26,17 +26,17 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #74c000; /* Dark green text */
+  color: #a8d08d; /* Lighter green text */
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #7fbf40; /* Darker green on hover */
+  color: #cddc39; /* Bright green on hover */
 }
 
 .template-btn {
-  background-color: #333;
+  background-color: #4CAF50; /* Brighter green for button */
   color: white;
   padding: 10px 20px;
   border: none;
@@ -62,12 +62,12 @@ main {
 h1 {
   font-size: 48px;
   margin-bottom: 20px;
-  color: #74c000; /* Dark green text */
+  color: #a8d08d; /* Lighter green text */
 }
 
 .description {
   font-size: 18px;
-  color: #666;
+  color: #bbb; /* Lighter gray text */
   max-width: 600px;
   margin: 0 auto;
   padding: 0 20px;
@@ -78,12 +78,12 @@ footer {
   padding: 20px;
   margin-top: 50px;
   font-size: 14px;
-  color: #999;
+  color: #aaa; /* Lighter gray footer text */
 }
 
 /* Skills Section */
 .skills-section {
-  background-color: #e6f7c9; /* Light green background */
+  background-color: #4CAF50; /* Darker green background */
   padding: 50px 20px;
 }
 
@@ -95,7 +95,7 @@ footer {
 
 .skills-title {
   font-size: 36px;
-  color: #333;
+  color: #a8d08d; /* Light green text */
   margin-bottom: 40px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -111,22 +111,22 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
+  background: #444; /* Dark background for skills card */
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Softer shadow */
   font-weight: bold;
-  color: #74c000; /* Dark green */
+  color: #a8d08d; /* Light green text */
   font-size: 1.2rem;
 }
 
 .skill-card {
-  background: #fff;
+  background: #444; /* Dark background */
   padding: 20px;
   border-radius: 12px;
   font-size: 18px;
   font-weight: bold;
-  color: #7fbf40; /* Green text */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #a8d08d; /* Light green text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Softer shadow */
   transition: transform 0.3s, box-shadow 0.3s;
   font-family: 'Poppins', sans-serif;
 }
@@ -136,17 +136,10 @@ footer {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
 
-.skills-section {
-  background-color: #e8f8d8;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  text-align: center;
-}
-
 .about-text {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  color: #74c000; /* Dark green text */
+  color: #bbb; /* Lighter gray text */
   text-align: center;
   line-height: 1.6;
   max-width: 700px;
@@ -155,7 +148,7 @@ footer {
 
 .projects-section {
   padding: 40px 20px;
-  background-color: #f5f5f5;
+  background-color: #444; /* Dark background for projects */
   text-align: center;
 }
 
@@ -163,6 +156,7 @@ footer {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 30px;
+  color: #a8d08d; /* Light green text */
 }
 
 .projects-grid {
@@ -177,7 +171,7 @@ footer {
   border-radius: 16px;
   width: 300px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s;
 }
 
@@ -203,12 +197,12 @@ footer {
 
 .project-desc {
   font-size: 16px;
-  color: #555;
+  color: #bbb; /* Lighter gray text */
   font-family: 'Poppins', sans-serif;
 }
 
 .education-section {
-  background-color: #e6f7c9;
+  background-color: #8bc34a; /* Darker green background */
   padding: 50px 20px;
   text-align: center;
 }
@@ -217,6 +211,7 @@ footer {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 30px;
+  color: #a8d08d; /* Light green text */
 }
 
 .education-grid {
@@ -231,14 +226,14 @@ footer {
   border-radius: 16px;
   width: 300px;
   padding: 25px 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .education-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.2);
 }
 
 .education-heading {
@@ -249,13 +244,13 @@ footer {
 
 .education-details {
   font-size: 16px;
-  color: #555;
+  color: #bbb; /* Lighter gray text */
   line-height: 1.6;
   font-family: 'Poppins', sans-serif;
 }
 
 .footer {
-  background-color: white;
+  background-color: #444; /* Dark footer */
   padding: 20px 40px;
   border-top: 1px solid #ddd;
 }
@@ -270,7 +265,7 @@ footer {
 .footer-left p {
   margin: 0;
   font-size: 14px;
-  color: #555;
+  color: #bbb; /* Lighter gray footer text */
 }
 
 .footer-right {
@@ -280,13 +275,13 @@ footer {
 
 .footer-icon {
   font-size: 24px;
-  color: #333;
+  color: #a8d08d; /* Light green icons */
   transition: transform 0.3s ease;
 }
 
 .footer-icon:hover {
   transform: scale(1.2);
-  color: #4CAF50;
+  color: #4CAF50; /* Optional: changes color slightly on hover */
 }
 
 .icon-link {
