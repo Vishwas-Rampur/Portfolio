@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: white;
-  color: #333;
+  background-color: #1a1a1a; /* Dark background */
+  color: #ccc;
 }
 
 header {
@@ -27,7 +27,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #ccc;
   font-weight: bold;
   transition: color 0.3s ease;
 }
@@ -95,7 +95,7 @@ footer {
 
 .skills-title {
   font-size: 36px;
-  color: #333;
+  color: #fff;
   margin-bottom: 40px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -254,7 +254,7 @@ footer {
   font-family: 'Poppins', sans-serif;
 }
 .footer {
-  background-color: white;
+  background-color: #333;
   padding: 20px 40px;
   border-top: 1px solid #ddd;
 }
